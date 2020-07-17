@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled map</name>
+    <description/>
+    <Style id="poly-0000FF-2000-154-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9aff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0000FF-2000-154-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9aff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-2000-154">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-2000-154-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-2000-154-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>My document</name>
+      <Placemark>
+        <name>NAME</name>
+        <description>YES</description>
+        <styleUrl>#poly-0000FF-2000-154</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.710457,43.491848,0
+                -79.695351,43.480639,0
+                -79.686253,43.489046,0
+                -79.687712,43.489731,0
+                -79.688828,43.490104,0
+                -79.690287,43.490229,0
+                -79.691575,43.490229,0
+                -79.695008,43.492657,0
+                -79.697068,43.494089,0
+                -79.698098,43.494588,0
+                -79.700329,43.494712,0
+                -79.701359,43.495148,0
+                -79.704192,43.495086,0
+                -79.707024,43.494339,0
+                -79.710457,43.491848,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
